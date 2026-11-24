@@ -20,3 +20,11 @@ positive
 Enter a number: -1.2
 negative
 """
+
+num = float(input("Enter a number:"))
+if num == 0:
+    print("Zero")
+if num < 0:
+    print("Negative")
+if num > 0:
+    print("Positive")

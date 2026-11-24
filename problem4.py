@@ -33,3 +33,21 @@ that is an obtuse triangle
 
 
 """
+print("Is this a right triangle? Enter your units!\n")
+
+s1 = float(input("Enter one side:"))
+s2 = float(input("Enter a second side:"))
+s3 = float(input("Enter a third side:"))
+
+import math 
+
+hyp = float(max(s1, s2, s3))
+c = hyp**2
+sum = (s1**2)+(s2**2)+(s3**2)-c
+if sum == c:
+    print('that is a right triangle')
+if sum > c: 
+    print('that is an acute triangle')
+if sum < c:
+    print('that is an obtuse triangle')
+

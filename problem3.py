@@ -32,6 +32,6 @@ if user != "admin":
 if user == "admin":
     pwd = str.strip(input("\nEnter password:"))
     if pwd != "12345password":
-        print("Access DENIED! H~How have you managed to get the username but not the password?!?! I~~~I'm such a scared little tsundere!~~")
+        print("Access DENIED!")
     if pwd == "12345password":
-        print("Access GRANTED! WELCOME! Y~yandere-san... wow... ~~~GOOD WORK!")
+        print("Access Granted!")

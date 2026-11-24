@@ -29,3 +29,17 @@ Enter c: 8
 the equation can not be factored
 
 """
+
+a = float(input("Enter a:"))
+b = float(input("Enter b:"))
+c = float(input("Enter c:"))
+
+import math 
+
+disc = (b**2 - (4*a*c))
+
+if disc < 0 or math.sqrt(disc)%1 != 0:
+    print("The equation can not be factored")
+else: 
+    print("The equation can be factored")
+
